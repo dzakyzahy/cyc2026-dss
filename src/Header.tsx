@@ -117,7 +117,7 @@ export function Header() {
                 className="block px-5 py-3 text-sm font-semibold text-[#1a2f2b] hover:bg-[#edf3ee] hover:text-[#204f49]"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Profil Tim Strategi
+                Profil Tim THINK3RS
               </Link>
             </div>
           )}

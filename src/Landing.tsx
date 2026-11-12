@@ -215,7 +215,7 @@ export default function LandingPage() {
                   href="/team"
                   className="flex items-center justify-center rounded-lg border border-[#c8d3c8] bg-white/95 hover:bg-[#edf3ee] py-2.5 px-3 text-xs sm:text-sm font-semibold text-[#1a2f2b] transition-colors"
                 >
-                  Tim Strategi
+                  Tim THINK3RS
                 </Link>
               </div>
             </div>
