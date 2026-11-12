@@ -47,11 +47,11 @@ export default function TeamPage() {
           </span>
 
           <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight text-[#1a2f2b]">
-            Profil <span className="text-[#204f49]">TIM STRATEGI ITB</span>
+            Profil <span className="text-[#204f49]">TIM THINK3RS</span>
           </h1>
 
           <p className="text-sm md:text-base text-[#52665f] leading-relaxed">
-            Tim Dekarbonisasi Institut Teknologi Bandung dalam Carbon Youth Challenge 2026. Kajian kami mengintegrasikan rekayasa efisiensi energi industri, transisi energi terbarukan, serta transformasi rantai nilai Scope 3 berbasis Science Based Targets initiative (SBTi) untuk PT XYZ menuju 2036.
+            Tim THINK3RS Institut Teknologi Bandung dalam Carbon Youth Challenge 2026. Kajian kami mengintegrasikan rekayasa efisiensi energi industri, transisi energi terbarukan, serta transformasi rantai nilai Scope 3 berbasis Science Based Targets initiative (SBTi) untuk PT XYZ menuju 2036.
           </p>
         </div>
 

@@ -168,7 +168,7 @@ function App() {
         terrain: '3D Abatement Landscape',
         data: 'Inventaris & Prioritas MCDA',
         about: 'Metodologi & Aturan SBTi',
-        team: 'Tim Strategi ITB',
+        team: 'Tim THINK3RS - ITB',
         documentation: 'Dokumentasi'
       }[page] || 'CYC 2026 SBTi Strategy DSS');
   }, [page]);
