@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@source "./**/*.{tsx,jsx}";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* CYC 2026 Official Guidebook Palette */
+  --color-primary: #204f49;
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #506e56;
+  --color-secondary-foreground: #ffffff;
+
+  --color-accent: #868e69;
+  --color-accent-foreground: #ffffff;
+
+  --color-warning: #9a7b38;
+  --color-danger: #b91c1c;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a2f2b;
+  --scrollbar-thumb: #868e69;
+  --scrollbar-track: #f1f4ed;
+}
+
+body {
+  color: var(--foreground);
+  background-color: #f6f8f4;
+  font-family: var(--font-sans);
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  scrollbar-width: thin;
+}
+
+.custom-scroller,
+.custom-scrollbar {
+  --scrollbar-thumb: #868e69;
+  --scrollbar-track: #f1f4ed;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  scrollbar-width: thin;
+}
+
+@supports not (scrollbar-color: auto) {
+  .custom-scroller::-webkit-scrollbar,
+  .custom-scrollbar::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .custom-scroller::-webkit-scrollbar-thumb,
+  .custom-scrollbar::-webkit-scrollbar-thumb,
+  body::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 9999px;
+  }
+
+  .custom-scroller::-webkit-scrollbar-track,
+  .custom-scrollbar::-webkit-scrollbar-track,
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+  }
+}
+
+input[type="range"] {
+  accent-color: #204f49;
+}
+
+@keyframes gcSnakeTravel {
+  0% {
+    stroke-dashoffset: 2600;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes gcSnakeTravelReverse {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 2600;
+  }
+}
+
+.gc-snake-ribbon-main {
+  stroke-dasharray: 1150 1450;
+  animation: gcSnakeTravel 14s linear infinite;
+}
+
+.gc-snake-ribbon-cross {
+  stroke-dasharray: 1050 1550;
+  animation: gcSnakeTravelReverse 16s linear infinite;
+}

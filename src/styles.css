@@ -1,0 +1,16 @@
+:root{--font-inter:'Inter';--font-jetbrains-mono:'JetBrains Mono';color-scheme:light}
+html,body{margin:0;overflow-x:clip}button,a,input,select{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:default}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #047857;outline-offset:3px}h1,h2,h3,h4{overflow-wrap:anywhere;min-width:0}.skip-link{position:fixed;z-index:100;top:-100px;left:12px;background:white;border:2px solid #047857;padding:10px}.skip-link:focus{top:12px}.science-nav{scrollbar-width:thin}img{max-width:100%}
+@media(max-width:374px){header h1{font-size:16px}header img{max-width:86px}header .gap-2{gap:6px}}
+.hero-slide{position:absolute;inset:0;z-index:0;opacity:0;transition:opacity 1.5s ease;pointer-events:none}
+.hero-slide.is-active{opacity:1}
+.hero-slide-image{display:block;width:100%;height:100%;object-fit:cover;object-position:18% center}
+.hero-slide-report{object-fit:contain;padding:20px 12px 90px;background:#fff}
+.hero-gallery-controls{position:absolute;z-index:30;left:16px;right:16px;bottom:14px;max-width:440px;color:#173c2d;text-shadow:0 1px 3px #fff,0 0 8px #fff,0 0 14px #fff}
+.hero-gallery-navigation{display:flex;align-items:center;gap:8px}
+.hero-gallery-navigation button{display:flex;align-items:center;justify-content:center;flex:0 0 36px;height:36px;border:0;padding:0;background:transparent;color:inherit;filter:drop-shadow(0 0 3px white)}
+.hero-gallery-navigation button:hover{color:#047857}
+.hero-gallery-caption{flex:1;min-width:0;text-align:center;font-size:13px;font-weight:600;line-height:1.4}
+.hero-gallery-credit{font-size:9px;line-height:1.4;color:#415e50;margin:3px 0 0}
+@media(min-width:1024px){.hero-slide-image{width:53%;object-position:center}.hero-slide-map{width:auto;height:100%;aspect-ratio:970/858;object-fit:cover;mask-image:linear-gradient(to right,#000 65%,transparent 100%)}.hero-slide-report{padding:20px 24px 90px;object-fit:contain}.hero-gallery-controls{left:24px;right:auto;max-width:min(440px,44%);width:100%;bottom:18px}}
+@media(prefers-reduced-motion:reduce){.hero-slide{transition:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.gc-snake-ribbon-main,.gc-snake-ribbon-cross{animation:none!important}svg animate{display:none}}

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <rect width="1200" height="780" fill="#f8fafc" rx="24"/>
+  <rect x="24" y="24" width="1152" height="732" rx="18" fill="#ffffff" stroke="#bae6fd" stroke-width="2"/>
+
+  <!-- Header -->
+  <g transform="translate(56, 54)">
+    <rect x="0" y="0" width="290" height="28" rx="14" fill="#f0f9ff" stroke="#bae6fd"/>
+    <text x="16" y="19" font-size="12" font-weight="800" fill="#0369a1" letter-spacing="1">GAMBAR 2.1 • ANTI-DOUBLE-COUNTING ENGINE</text>
+    <text x="0" y="60" font-size="28" font-weight="900" fill="#0f172a">Dekarbonisasi Sekuensial &amp; Penutupan Gap SBTi 2036 (-11.094 tCO₂e)</text>
+    <text x="0" y="86" font-size="14" font-weight="500" fill="#475569">Eliminasi hitung ganda melalui kalkulasi bertingkat: Efisiensi Energi mendahului Pengadaan EBT &amp; Fuel Switching</text>
+  </g>
+
+  <!-- Step-by-Step Waterfall Diagram -->
+  <g transform="translate(76, 180)">
+    <!-- Axes -->
+    <line x1="60" y1="30" x2="60" y2="410" stroke="#cbd5e1" stroke-width="2"/>
+    <line x1="60" y1="410" x2="1030" y2="410" stroke="#cbd5e1" stroke-width="2"/>
+
+    <!-- Y-axis labels -->
+    <text x="48" y="42" text-anchor="end" font-size="11" font-weight="700" fill="#64748b">25.000</text>
+    <text x="48" y="134" text-anchor="end" font-size="11" font-weight="700" fill="#64748b">20.000</text>
+    <text x="48" y="226" text-anchor="end" font-size="11" font-weight="700" fill="#64748b">15.000</text>
+    <text x="48" y="318" text-anchor="end" font-size="11" font-weight="700" fill="#64748b">10.000</text>
+    <text x="48" y="410" text-anchor="end" font-size="11" font-weight="700" fill="#64748b">0 tCO₂e</text>
+
+    <!-- Target Ceiling Line (12,897.33 tCO2e) -->
+    <line x1="60" y1="265" x2="1030" y2="265" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="8 6"/>
+    <rect x="780" y="236" width="245" height="24" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+    <text x="790" y="252" font-size="11" font-weight="800" fill="#b91c1c">BATAS MAKSIMUM SBTi 2036: 12.897 tCO₂e</text>
+
+    <!-- Bar 1: Baseline In-Boundary (23,309.33) -->
+    <rect x="90" y="60" width="95" height="350" rx="6" fill="#1e293b"/>
+    <text x="137" y="50" text-anchor="middle" font-size="12" font-weight="800" fill="#0f172a">23.309</text>
+    <text x="137" y="432" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">Baseline 2025</text>
+    <text x="137" y="447" text-anchor="middle" font-size="10" fill="#64748b">(In-Boundary)</text>
+
+    <!-- Bar 2: Step 1 Energy Efficiency (-1,090.69) -->
+    <rect x="220" y="60" width="95" height="22" rx="4" fill="#16a34a"/>
+    <text x="267" y="50" text-anchor="middle" font-size="12" font-weight="800" fill="#15803d">-1.091</text>
+    <text x="267" y="432" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">Tahap 1: Efisiensi</text>
+    <text x="267" y="447" text-anchor="middle" font-size="10" fill="#64748b">S1 Termal &amp; S2 Listrik</text>
+
+    <!-- Bar 3: Step 2 Renewable Electricity on Reduced S2 Baseline (-1,904.81) -->
+    <rect x="350" y="82" width="95" height="34" rx="4" fill="#0284c7"/>
+    <text x="397" y="74" text-anchor="middle" font-size="12" font-weight="800" fill="#0369a1">-1.905</text>
+    <text x="397" y="432" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">Tahap 2: EBT S2</text>
+    <text x="397" y="447" text-anchor="middle" font-size="10" fill="#64748b">(Atas Sisa Listrik 82%)</text>
+
+    <!-- Bar 4: Step 3 S1 Fuel Switch + EV Fleet on Reduced S1 (-2,146.79) -->
+    <rect x="480" y="116" width="95" height="38" rx="4" fill="#15803d"/>
+    <text x="527" y="108" text-anchor="middle" font-size="12" font-weight="800" fill="#15803d">-2.147</text>
+    <text x="527" y="432" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">Tahap 3: S1 Transisi</text>
+    <text x="527" y="447" text-anchor="middle" font-size="10" fill="#64748b">Biomassa, HeatPump, EV</text>
+
+    <!-- Bar 5: Step 4 Scope 3 Supply Chain & Circularity (-3,895.00) -->
+    <rect x="610" y="154" width="95" height="66" rx="4" fill="#0d9488"/>
+    <text x="657" y="146" text-anchor="middle" font-size="12" font-weight="800" fill="#0f766e">-3.895</text>
+    <text x="657" y="432" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">Tahap 4: Hulu &amp; Produk</text>
+    <text x="657" y="447" text-anchor="middle" font-size="10" fill="#64748b">Cat 1 &amp; Cat 10 Redesign</text>
+
+    <!-- Bar 6: Step 5 Scope 3 Logistics & WTT Co-Benefit (-2,681.53) -->
+    <rect x="740" y="220" width="95" height="52" rx="4" fill="#0f766e"/>
+    <text x="787" y="212" text-anchor="middle" font-size="12" font-weight="800" fill="#0f766e">-2.682</text>
+    <text x="787" y="432" text-anchor="middle" font-size="11" font-weight="700" fill="#334155">Tahap 5: Logistik &amp; WTT</text>
+    <text x="787" y="447" text-anchor="middle" font-size="10" fill="#64748b">Cat 3, Cat 4, Cat 9, Cat 7</text>
+
+    <!-- Bar 7: Final 2036 Residual Emissions (11,590.51) -->
+    <rect x="890" y="272" width="105" height="138" rx="6" fill="#047857"/>
+    <text x="942" y="262" text-anchor="middle" font-size="13" font-weight="900" fill="#047857">11.591 tCO₂e</text>
+    <text x="942" y="432" text-anchor="middle" font-size="11" font-weight="800" fill="#047857">Emisi 2036</text>
+    <text x="942" y="447" text-anchor="middle" font-size="10" font-weight="700" fill="#15803d">LULUS SBTi (-50,3%)</text>
+  </g>
+
+  <!-- Formula Explanation Box -->
+  <g transform="translate(56, 650)">
+    <rect x="0" y="0" width="1088" height="82" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="20" y="26" font-size="13" font-weight="800" fill="#14532d">Rumus Sekuensial Anti-Double-Counting (CYC 2026 Case Rule #4):</text>
+    <text x="20" y="48" font-size="12" font-weight="600" fill="#166534">• Scope 2: ΔE_eff = E₀ × η_eff (18% = 432,09 tCO₂e) → Sisa Listrik E₁ = 1.968,43 tCO₂e → ΔE_RE = E₁ × (f_solar + f_rec) = 1.904,81 tCO₂e (Bukan dari 2.400,52!)</text>
+    <text x="20" y="68" font-size="12" font-weight="600" fill="#166534">• Scope 1: ΔS1_eff = S1_stat × η_therm (16,85% = 658,60 tCO₂e) → Sisa Termal S1₁ = 3.249,32 tCO₂e → ΔS1_switch = S1₁ × f_bio_hp = 1.949,59 tCO₂e</text>
+  </g>
+</svg>

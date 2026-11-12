@@ -1,0 +1,37 @@
+{
+  "project": "CarbonTrack-XYZ™ Decision Support System — CYC 2026",
+  "competition": "Carbon Youth Challenge (CYC) 2026 — Carbon Digital Conference (CDC) 2026",
+  "organizers": [
+    "Indonesia Carbon Trade Association (IDCTA) Youth",
+    "SRE UPN Veteran Jakarta"
+  ],
+  "sourceDocument": "CYC 2026 Participants Guideline & Business Study Case Handbook (Pages 13–22)",
+  "baselineYear": 2025,
+  "targetYear": 2036,
+  "verifiedBaselineTotals": {
+    "scope1_tCO2e": 4152.04,
+    "scope2_tCO2e": 2400.52,
+    "scope12_tCO2e": 6552.56,
+    "scope3_reported_tCO2e": 19835.4,
+    "scope3_inBoundary_exactSum_tCO2e": 16756.77,
+    "scope3_inBoundary_handbookApprox_tCO2e": 16756.6,
+    "scope3_outBoundary_tCO2e": 3078.63,
+    "total_reported_tCO2e": 26387.96
+  },
+  "sbtiValidatedTargets": {
+    "scope12_reduction_pct": 63,
+    "scope12_required_reduction_tCO2e": 4128.11,
+    "scope12_max_2036_tCO2e": 2424.45,
+    "scope3_coverage_pct": 84,
+    "scope3_reduction_pct": 37.5,
+    "scope3_required_reduction_tCO2e": 6283.73,
+    "scope3_max_2036_tCO2e": 10472.88,
+    "total_required_reduction_tCO2e": 10411.84
+  },
+  "methodologyNotes": [
+    "Anti-Double-Counting Rule (Case Rule #4): Scope 2 energy efficiency (-18%) is deducted first from 2,400.52 tCO2e, leaving 1,968.43 tCO2e residual electricity demand before applying Rooftop Solar PV and I-REC procurement.",
+    "Scope 1 Sequential Rule: Boiler WHR & combustion tuning (-16.85%) is deducted first from 3,907.92 tCO2e stationary combustion, leaving 3,249.32 tCO2e before applying biomass co-firing and industrial heat pumps.",
+    "Boundary Rule: Category 8 (527.57 tCO2e) and Category 12 (2,551.06 tCO2e) are explicitly excluded from SBTi target compliance calculations per Handbook Page 16.",
+    "Offset Rule (Case Rule #6): Zero carbon credits/offsets are counted toward the 2036 SBTi near-term reduction target; all 11,718.12 tCO2e reductions come from direct operational and value-chain interventions."
+  ]
+}

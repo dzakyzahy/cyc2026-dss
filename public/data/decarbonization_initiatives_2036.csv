@@ -1,0 +1,14 @@
+﻿ID,Code,InitiativeName,Scope,Phase,SequenceStep,BaselineAffected_tCO2e,AssumedReduction_Pct,CAPEX_MUSD,MACC_USD_per_tCO2e,Payback_Years
+"INIT-S1-WHR","OP-01","Waste Heat Recovery (WHR) & AI Boiler Combustion Tuning","Scope 1","Phase 1 (2027–2028)","Step 1 (Efficiency First)",3907.92,16.85,0.42,-18.5,2.1
+"INIT-S2-EFF","OP-02","Smart Energy Management System (EMS), VFD Motors & HVAC Optimization","Scope 2","Phase 1 (2027–2028)","Step 1 (Efficiency First)",2400.52,18,0.31,-24,1.8
+"INIT-S2-SOLAR","RE-01","2.5 MWp Rooftop Solar PV (Zero-CAPEX Leasing / PPA On-Site)","Scope 2","Phase 1–2 (2027–2029)","Step 2 (Applied to 82% Residual S2)",1968.43,45,0.15,-8.2,2.5
+"INIT-S2-REC","RE-02","Utility Green Tariff & High-Integrity Bundled I-REC Procurement","Scope 2","Phase 2 (2029–2033)","Step 2 (Applied to 82% Residual S2)",1968.43,51.8,0.08,6.5,0
+"INIT-S1-BIOHP","OP-03","Biomass Pellet Co-Firing & High-Temp Industrial Heat Pumps","Scope 1","Phase 2 (2029–2033)","Step 3 (Applied to 83.15% Residual S1)",3249.32,60,1.65,19.4,4.6
+"INIT-S1-EV","OP-04","EV Forklift & Operational Utility Vehicle Fleet Transition","Scope 1","Phase 2–3 (2029–2035)","Step 3 (Direct Electrification)",231.13,80,0.28,12,3.8
+"INIT-S1-FUG","OP-05","Low-GWP Refrigerant Retrofit & Digital Leak Detection","Scope 1","Phase 1 (2027–2028)","Step 3 (Direct Containment)",12.86,82,0.04,14.5,2.9
+"INIT-S3-C1","SC-01","Cat 1 Supplier SBTi Pact, Green Procurement & Recycled Feedstock","Scope 3","Phase 2–3 (2028–2036)","Step 4 (Upstream Value Chain)",6098.98,38,0.95,22.5,4.2
+"INIT-S3-C10","SC-02","Cat 10 Low-Temperature / Pre-Cured Product Eco-Design & Customer Co-Eng.","Scope 3","Phase 2–3 (2029–2036)","Step 4 (Downstream Product Strategy)",4745.86,34,1.1,16.8,3.9
+"INIT-S3-C3","SC-03","Cat 3 Upstream WTT & T&D Loss Cascading Reduction","Scope 3","Phase 1–3 (2027–2036)","Step 5 (Coupled to S1+S2 Savings)",2227,56.51,0.05,2,1
+"INIT-S3-LOG","LG-01","Cat 4 & Cat 9 Intermodal Rail/Sea Shift, Route AI & Green 3PL Fleet","Scope 3","Phase 2–3 (2028–2036)","Step 5 (Logistics Decarbonization)",3490.66,35,0.55,14.2,3.4
+"INIT-S3-CIRC","CE-01","Cat 5 & Cat 2 Zero-Waste Industrial Scrap Loop & Low-Carbon Capex","Scope 3","Phase 1–2 (2027–2030)","Step 5 (Circular Operations)",65.89,53.13,0.06,-5,2.2
+"INIT-S3-COMM","CE-02","Cat 7 & Cat 6 Electric Employee Shuttles & Smart Travel Policy","Scope 3","Phase 1–2 (2027–2031)","Step 5 (Workforce Mobility)",128.38,54.1,0.09,9.5,3.5

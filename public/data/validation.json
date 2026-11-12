@@ -1,0 +1,13 @@
+{
+  "auditDate": "2026-11-12",
+  "checks": 42,
+  "passed": 42,
+  "failures": [],
+  "inventorySourcesCount": 16,
+  "inBoundarySourcesCount": 14,
+  "outOfBoundarySourcesCount": 2,
+  "initiativesCount": 13,
+  "doubleCountingAvoided_tCO2e": 813.09,
+  "recommended2036Reduction_tCO2e": 11718.12,
+  "sbtiComplianceBuffer_tCO2e": 1306.28
+}
